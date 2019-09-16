@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.type .title .menu {
+  float: right;
+  font-weight: bold;
+}
+.type .title .menu ul {
+  list-style-type: none;
+  background: red;
+  text-align: center;
+}
+.type .title .menu ul li {
+  border: none;
+  padding: 1px;
+  color: #FFF;
+  display: inline-table;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+}
+.type .title .menu ul li a {
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+}
+.type .title .menu ul li a:hover {
+  background: yellow;
+  color: black;
+}
+.type .title .menu ul li > .mega-menu {
+  display: none;
+  position: absolute;
+}
+.type .title .menu ul li:hover .mega-menu {
+  display: block;
+}
+.type .title a {
+  color: #000;
+  text-decoration: none;
+}
+.type .title a:hover {
+  text-decoration: none;
+}
+.type .title .nav {
+  margin-bottom: 0;
+  list-style: none;
+}
+.type .title dl,
+.type .title ol,
+.type .title ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.type .title .menu-item {
+  display: inline-block;
+  color: #959595;
+  font-size: .929em;
+}
+.type .title .menu-item>a i {
+  margin-right: 6px;
+  font-size: 1rem;
+}
+.type .title img {
+  width: 70%;
+}
+.type .herder .logo img {
+  width: 80%;
+}
+.type .top-bar {
+  border-bottom: 1px solid #ddd;
+  padding: .786em 0;
+}
+.type .seach {
+  padding-top: 60px;
+}
+.type .gensearch_input {
+  height: 42px;
+  width: 100%;
+  padding: 0 20px;
+  border: 3px solid #fed700;
+}
+.type .gensearch_submit {
+  position: absolute;
+  right: 0;
+  border: 0;
+  color: #BBB;
+  background-color: transparent;
+  height: 100%;
+  padding: 0 20px;
+  font-size: 12px;
+  padding-top: 55px;
+}
+.type .icon3 {
+  float: left;
+  width: 6%;
+}

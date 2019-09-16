@@ -1,0 +1,221 @@
+.type-506 #navigation {
+  width: 1207px;
+  margin-left: -10px;
+  background-color: #4c4c4c;
+  float: left;
+}
+.type-506 #navigation .left-corner {
+  border-color: transparent #888 transparent transparent;
+  border-width: 0 9px 9px 0;
+  float: left;
+  border-style: solid;
+  position: relative;
+  top: 49px;
+}
+.type-506 #navigation .right-corner {
+  border-style: solid;
+  position: relative;
+  top: 49px;
+  border-color: #888 transparent transparent transparent;
+  border-width: 9px 9px 0 0;
+  float: right;
+}
+.type-506 #navigation .menu>li>a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 15px 20px 16px 20px;
+  border-right: 1px solid #666;
+}
+.type-506 #navigation .menu>li {
+  float: left;
+}
+.type-506 #navigation .menu>li a {
+  display: block;
+}
+.type-506 #navigation .menu ol {
+  margin: 7px 10px;
+  padding: 0;
+  list-style: none;
+}
+.type-506 #navigation .menu ol a {
+  color: #777;
+  font-size: 12px;
+  padding: 3px 0;
+  line-height: 15px;
+}
+.type-506 #navigation .menu>img {
+  float: left;
+  width: 20px;
+  height: auto;
+}
+.type-506 #navigation .menu p {
+  font-size: 12px;
+  line-height: 18px;
+  margin: 9px 10px;
+  padding: 0;
+}
+.type-506 #navigation .menu p a {
+  color: #888;
+}
+.type-506 #navigation .menu p a:hover {
+  color: #555;
+}
+.type-506 #navigation ul li:first-child {
+  margin-left: -8px;
+}
+.type-506 #navigation .menu ul {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-top: none;
+  left: -1px;
+  z-index: 999;
+  border-radius: 0 0 2px 2px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+}
+.type-506 #navigation .halflings.home {
+  background-position: 0 -24px;
+}
+.type-506 #navigation .halflings.file {
+  background-position: -24px -24px;
+}
+.type-506 #navigation .halflings.cog {
+  background-position: -432px 0;
+}
+.type-506 #navigation .halflings.briefcase {
+  background-position: -432px -144px;
+}
+.type-506 #navigation .halflings.shopping-cart {
+  background-position: -360px -120px;
+}
+.type-506 #navigation .halflings.pencil {
+  background-position: 0 -72px;
+}
+.type-506 #navigation .halflings.envelope {
+  background-position: -72px 0;
+}
+.type-506 #navigation .halflings {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+.type-506 #navigation #current {
+  background-color: #169fe6;
+  border-right: 1px solid #169fe6;
+  margin-left: -1px;
+  padding-left: 21px;
+  z-index: 8;
+  position: relative;
+}
+.type-506 .menu i.halflings {
+  margin: 1px 2px 0 -2px;
+}
+.type-506 .menu,
+.type-506 .menu ul {
+  padding: 0;
+  list-style: none;
+}
+.type-506 .menu li,
+.type-506 .menu ul a {
+  position: relative;
+}
+.type-506 .menu ul,
+.type-506 .menu li>div {
+  visibility: hidden;
+  display: none;
+}
+.type-506 .menu li:hover>ul,
+.type-506 .menu li:hover>div {
+  visibility: visible;
+  display: block;
+}
+.type-506 .menu ul {
+  position: absolute;
+  display: none;
+  width: 170px;
+}
+.type-506 .menu ul ul {
+  top: 0;
+  left: 170px;
+}
+.type-506 #navigation ul li ul li:first-child,
+.type-506 #navigation ul li ul li ul li:first-child {
+  margin-left: 0;
+}
+.type-506 .menu a {
+  text-decoration: none;
+}
+.type-506 .menu>li>a:hover {
+  border-right: 1px solid #707070;
+  margin: 0 0 0 -1px;
+}
+.type-506 .menu>li>a img,
+.type-506 .menu li>ul>li>a img {
+  border: 0;
+  margin-right: 7px;
+}
+.type-506 .menu ul a {
+  color: #777;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 9px 12px;
+  border-top: 1px solid #e6e6e6;
+}
+.type-506 .menu ul a:hover {
+  background-color: #f5f5f5;
+}
+.type-506 .menu .cols1,
+.type-506 .menu .cols3 {
+  position: absolute;
+  display: none;
+  overflow: auto;
+  z-index: 999;
+  background: #fff;
+}
+.type-506 .menu .cols1,
+.type-506 .menu .col1 {
+  width: 145px;
+}
+.type-506 .menu .cols3,
+.type-506 .menu .col3 {
+  width: 457px;
+}
+.type-506 .menu>li.floatr>ul.cols1,
+.type-506 ul.cols3 {
+  right: 0;
+}
+.type-506 .menu>li:hover>ul.cols1,
+.type-506 ul.cols3 {
+  display: block;
+}
+.type-506 .menu .col1,
+.type-506 .menu .col3 {
+  float: left;
+}
+.type-506 ul.cols1 a:hover,
+.type-506 ul.cols3 a:hover {
+  background: none;
+  border: none;
+}
+.type-506 ul.cols1 a,
+.type-506 a,
+.type-506 ul.cols3 a {
+  background: none;
+  border: none;
+}
+.type-506 ul.cols1 p a,
+.type-506 ul.cols3 p a {
+  padding: 0;
+}
+@media (max-width: 468px) {
+  .type-506 .menu>li {
+    float: left;
+  }
+  .type-506 .menu>li a {
+    display: block;
+  }
+}
