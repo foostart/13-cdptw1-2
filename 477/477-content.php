@@ -52,29 +52,7 @@ if (!class_exists('lessc')) {
   </div><!-- /.container-fluid -->
 </nav>
 
-                        <!-- <div class="title">
-                        <a href="#">Welcome to Worldwide Electronics Store</a>
-                        <div class="menu" id="menu">
-                            <ul>
-                                <li>
-                                    <a href="#">Shop</a>
-                                    <ul class="mega-menu">
-                                        <li><a href="#">Store Locator</a></li>
-                                        <li><a href="#">Track Your Oder</a></li>
-                                        <li><a href="#">Menu</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">My Account</a>
-                                    <ul class="mega-menu">
-                                        <li><a href="#">Login</a></li>
-                                        <li><a href="#">Security</a></li>
-                                        <li><a href="#">Log Out</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div> -->
+                     
                     <div class="top-bar"></div>
                     <div class="container">
                         <div class="row">
