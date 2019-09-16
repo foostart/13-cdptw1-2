@@ -63,12 +63,20 @@
   margin-right: 6px;
   font-size: 1rem;
 }
+.type-477 h5 {
+  margin-bottom: -25px;
+}
 .type-477 .top-bar {
   border-bottom: 1px solid #ddd;
-  padding: .786em 0;
+  padding: 0 0;
 }
 .type-477 .gensearch_form {
   padding-top: 8%;
+}
+.type-477 .navbar-default {
+  background-color: unset;
+  border-color: white;
+  margin-bottom: 0px;
 }
 .type-477 .gensearch_input {
   height: 40px;
@@ -83,9 +91,9 @@
   background-color: transparent;
   height: 100%;
   padding: -1px 20px;
-  font-size: 12px;
-  margin-left: -13px;
-  padding-top: 56px;
+  font-size: 18px;
+  margin-left: -26px;
+  padding-top: 65px;
 }
 .type-477 .logo {
   text-align: center;
