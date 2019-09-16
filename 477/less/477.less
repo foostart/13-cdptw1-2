@@ -1,8 +1,9 @@
 * {
   margin:0;
+
   padding:0; 
 }
-.type{
+.type-477{
     .title{
         .menu{
              float: right;
@@ -65,18 +66,10 @@
             margin-right: 6px;
             font-size: 1rem;
         }
-        img{
-            width: 70%;
-        }
+
       
     }
-    //herder
-    .herder{
-        .logo img{
-            width: 80%;
-        }
 
-    }
 
 
 
@@ -85,30 +78,55 @@
         border-bottom: 1px solid #ddd;
         padding: .786em 0;
     }
+     .gensearch_form{
+            padding-top: 8%;
+        }
+      
+  
+    .gensearch_input {
+          height: 40px;
+    width: 70%;
+    padding: 0 20px;
+    border: 3px solid #fed700;
+    }
+   
+    .gensearch_submit {
+    position: absolute;
+    border: 0;
+    color: #BBB;
+    background-color: transparent;
+    height: 100%;
+    padding: -1px 20px;
+    font-size: 12px;
+    margin-left: -13px;
+    padding-top: 56px;
 
-    .seach {
-        padding-top: 60px;
+    }
+    .logo{
+    text-align:center;
+    }
+    img{
+    max-width: 100%;
+    height: auto;
+    }
+ 
+  @media screen {
+  @media (max-width: 767px) {
+    .gensearch_form {
+ padding-top: unset; 
+}
+     .gensearch_submit {
+   
+    padding-top: 0;
+
     }
     .gensearch_input {
-        height: 42px;
-        width: 100%;
-        padding: 0 20px;
-        border: 3px solid #fed700;
-
-    }
-    .gensearch_submit {
-        position: absolute;
-        right: 0;
-        border: 0;
-        color: #BBB;
-        background-color: transparent;
-        height: 100%;
-        padding: 0 20px;
-        font-size: 12px;
-        padding-top: 55px;
-    }
-    .icon3 {
-        float:left;
-        width: 6%;
-    }
+    height: 40px;
+    width: 100%;
+    padding: 0 20px;
+    border: 3px solid #fed700;
+}
+   
+  }
+}
 }
