@@ -7,13 +7,13 @@
     $url_path = $url_host . $matches[1][0];
     $url_path = str_replace('\\', '/', $url_path);
 ?>
-        <div class="type-643">
+        <div class="type-505">
             <div class="container"> 
                 <div class="topline"></div>
-                <div class="backgr">
+                <div class="container backgr">
                     <div class="row">
                         <!-- Header -->
-                        <div class="col-md-6 col-sm-12 col-xs-12 ">
+                        <div class="col-md-6 col-sm-6 col-xs-12 ">
                             <!-- Logo -->
                             <div class="eight-columns">
                                 <div id="logo">
@@ -23,8 +23,8 @@
                             </div>
                         </div>
                         <!-- Social / Contact -->
-                        <div class="col-md-6 col-sm-12 col-xs-12 ">
-                            <div class="eight-columns">
+                        <div class="col-md-6 col-sm-6 col-xs-12 ">
+                            <div class="eight-columns second">
                                 <!-- Social Icons -->
                                 <ul class="social-icons">
                                     <li class="twitter"><a href="#">Twitter</a></li>

@@ -10,7 +10,7 @@
         <div class="type-506">
             <div class="container">
                 <div class="row">
-                    <nav id="navigation">
+                    <nav id="navigation" class="navbar navbar-default">
                         <div class="left-corner"></div>
                         <div class="right-corner"></div>
                         <ul class="menu">

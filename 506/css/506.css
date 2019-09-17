@@ -20,6 +20,9 @@
   border-width: 9px 9px 0 0;
   float: right;
 }
+.type-506 #navigation .menu-dropdown-icon {
+  display: block;
+}
 .type-506 #navigation .menu>li>a {
   color: #fff;
   font-weight: 400;
