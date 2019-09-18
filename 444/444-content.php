@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-9">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-5 col-sm-5">
                             <div class="badge">
                                 <span class="badge_sale">
                                     Sale! -100%
@@ -26,6 +26,7 @@
                                             <a class="swiper-slide" > <img src="<?php echo $url_path ?>/images/san-pham-A-6.jpg"
                                             alt=""/> </a>     
                                         </div>
+                                        <div class="swiper-pagination"></div>
                                             <div class="swiper-button-next"></div>
                                             <div class="swiper-button-prev"></div>
                                     </div>
@@ -33,7 +34,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-7">
+                        <div class="col-md-7 col-sm-7">
                             <h1 class="product_title">Hoodie With Patch Logo</h1>
                                     
                             <div class="product-rating">
@@ -171,8 +172,8 @@
                             
                     <div class="related">
                                 <h2>RELATED PRODUCTS</h2>
-                                <ul class="products">
-                                    <li class="product">
+                                <div class="row">
+                                    <div class="col-xs-4 col-sm-4 col-md-4">
                                         <div class="product-list-item">
                                             <div class="zn_badge_container">
                                                 <span class="zn_badge_new">NEW</span>
@@ -196,9 +197,9 @@
                                                 <a href="#" class="action-moreinfo">MORE INFO</a>
                                             </div>
                                         </div>
-                                    </li>
+                                    </div>
 
-                                    <li class="product">
+                                    <div class="col-xs-4 col-sm-4 col-md-4">
                                         <div class="product-list-item">
                                             <div class="zn_badge_container">
                                                 <span class="zn_badge_new">NEW</span>
@@ -222,9 +223,9 @@
                                                 <a href="#" class="action-moreinfo">MORE INFO</a>
                                             </div>
                                         </div>
-                                    </li>
+                                    </div>
 
-                                    <li class="product">
+                                    <div class="col-xs-4 col-sm-4 col-md-4">
                                         <div class="product-list-item">
                                             <div class="zn_badge_container">
                                                 <span class="zn_badge_new">NEW</span>
@@ -248,8 +249,8 @@
                                                 <a href="#" class="action-moreinfo">MORE INFO</a>
                                             </div>
                                         </div>
-                                    </li>
-                                </ul>
+                                    </div>
+                                </div>
                     </div>
                 </div>
 

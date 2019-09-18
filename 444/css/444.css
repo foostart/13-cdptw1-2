@@ -1,6 +1,18 @@
 .clear {
   clear: both;
 }
+.type-444 a:hover {
+  text-decoration: none !important;
+  opacity: 0.5;
+  color: blue;
+}
+.type-444 .product-list-item:hover {
+  text-decoration: none !important;
+  opacity: 0.7;
+}
+.type-444 button:hover {
+  opacity: 0.5;
+}
 .type-444 .detil {
   padding-top: 50px;
 }
@@ -44,10 +56,6 @@
   float: left;
   width: 100%;
   margin-bottom: 2em;
-}
-.type-444 .images .img-responsive {
-  width: 334px;
-  height: 426px;
 }
 .type-444 .san-pham-phu {
   padding: 10px 0 0 10px;
@@ -550,4 +558,9 @@
 .type-444 ul.product_list_widget li .amount {
   font-weight: 300;
   display: block;
+}
+@media screen and (max-width: 768px) {
+  .type-444 #largeImage {
+    margin-left: 0px;
+  }
 }
