@@ -8,6 +8,7 @@
     $url_path = str_replace('\\', '/', $url_path);
 ?>
         <div class="type-506">
+
             <div class="container">
                 <div class="row">
                     <nav id="navigation" class="navbar navbar-default">
@@ -85,7 +86,14 @@
                             </li>
                             <li><a href="contact.html"><i class="glyphicon glyphicon-envelope halflings envelope"></i> Contact</a></li>
                         </ul>
-                    </nav>                 
+                    </nav>  
+                             
                 </div>
             </div>
+            <div class="container">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
         </div>

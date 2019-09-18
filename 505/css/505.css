@@ -146,6 +146,11 @@
     width: 330px;
   }
 }
+@media all and (max-width: 1310px) and (max-width: 735px) {
+  .type-505 .fullwidth {
+    width: 100% !important;
+  }
+}
 @media all and (max-width: 1310px) and (max-width: 500px) {
   .type-505 .second {
     float: left;

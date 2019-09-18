@@ -13,7 +13,7 @@
                 <div class="container backgr">
                     <div class="row">
                         <!-- Header -->
-                        <div class="col-md-6 col-sm-6 col-xs-12 ">
+                        <div class="col-md-6 col-sm-6 col-xs-6 fullwidth ">
                             <!-- Logo -->
                             <div class="eight-columns">
                                 <div id="logo">
@@ -23,7 +23,7 @@
                             </div>
                         </div>
                         <!-- Social / Contact -->
-                        <div class="col-md-6 col-sm-6 col-xs-12 ">
+                        <div class="col-md-6 col-sm-6 col-xs-6 fullwidth ">
                             <div class="eight-columns second">
                                 <!-- Social Icons -->
                                 <ul class="social-icons">
