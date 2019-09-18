@@ -74,20 +74,27 @@
 
 
         h5{
+        margin-left: 40px;
             margin-bottom: -25px;
         }
     .top-bar {
         border-bottom: 1px solid #ddd;
         padding: 0 0;
+        margin-bottom:30px;
     }
      .gensearch_form{
-            padding-top: 8%;
+            padding-top: 9%;
         }
       
   .navbar-default {
     background-color: unset;
     border-color: white;
     margin-bottom: 0px;
+        z-index: 1030;
+position: fixed;
+opacity: 1;
+right: 0;
+    left: 0;
 }
     .gensearch_input {
           height: 40px;
@@ -105,7 +112,7 @@
     padding: -1px 20px;
     font-size: 18px;
     margin-left: -26px;
-    padding-top: 65px;
+    padding-top: 70px;
 
     }
     .logo{
@@ -115,9 +122,27 @@
     max-width: 100%;
     height: auto;
     }
- 
+    .navbar-right{
+    background-color:white;
+    }
   @media screen {
+  @media(min-width: 768px) and (max-width:1200px){
+   .gensearch_submit{
+      padding-top: 59px;
+  }
+    .gensearch_form {
+    padding-top: 9%;
+  }
+  }
+  @media(max-width: 321px){
+  h5{font-size: 13px;}
+
+  }
   @media (max-width: 767px) {
+   h5{
+        margin-left: 20px;
+            
+        }
     .gensearch_form {
  padding-top: unset; 
 }
