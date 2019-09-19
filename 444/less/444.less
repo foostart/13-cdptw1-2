@@ -579,9 +579,15 @@
       display: block;
     }
     @media screen{
-    @media (max-width:768px){
+    @media (min-width:590px) and (max-width:767px){
     #largeImage{
         margin-left: 0px;
+        min-width:690px;
+    }
+    }
+     @media (max-width:450px){
+    .full-size-img{
+        width:100%!important;
     }
     }
     }

@@ -18,13 +18,12 @@
                                     <div id="thumbs" class="san-pham-phu col-md-12">
                                        <div class="swiper-container">    
                                          <div class="swiper-wrapper "> 
-                                           <a class="swiper-slide" > <img src="<?php echo $url_path ?>/images/san-pham-A-2.jpg" alt=""/> </a>                                            
-                                            <a class="swiper-slide" ><img src="<?php echo $url_path ?>/images/san-pham-A-3.jpg" alt=""/></a>                                              
+                                           <a class="swiper-slide" > <img src="<?php echo $url_path ?>/images/san-pham-A-2.jpg" alt="a2"/> </a>                                            
+                                            <a class="swiper-slide" ><img src="<?php echo $url_path ?>/images/san-pham-A-3.jpg" alt="a3"/></a>                                              
                                             <a class="swiper-slide" > <img src="<?php echo $url_path ?>/images/san-pham-A-4.jpg"
-                                             alt=""/></a> 
-                                            <a class="swiper-slide" ><img src="<?php echo $url_path ?>/images/san-pham-A-5.jpg" alt=""/> </a> 
-                                            <a class="swiper-slide" > <img src="<?php echo $url_path ?>/images/san-pham-A-6.jpg"
-                                            alt=""/> </a>     
+                                             alt="a4"/></a> 
+                                            <a class="swiper-slide" ><img src="<?php echo $url_path ?>/images/san-pham-A-5.jpg" alt="a5"/> </a> 
+                                         
                                         </div>
                                         <div class="swiper-pagination"></div>
                                             <div class="swiper-button-next"></div>
@@ -173,7 +172,7 @@
                     <div class="related">
                                 <h2>RELATED PRODUCTS</h2>
                                 <div class="row">
-                                    <div class="col-xs-4 col-sm-4 col-md-4">
+                                    <div class="col-xs-4 col-sm-4 col-md-4 full-size-img">
                                         <div class="product-list-item">
                                             <div class="zn_badge_container">
                                                 <span class="zn_badge_new">NEW</span>
@@ -199,7 +198,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-xs-4 col-sm-4 col-md-4">
+                                    <div class="col-xs-4 col-sm-4 col-md-4 full-size-img">
                                         <div class="product-list-item">
                                             <div class="zn_badge_container">
                                                 <span class="zn_badge_new">NEW</span>
@@ -225,7 +224,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-xs-4 col-sm-4 col-md-4">
+                                    <div class="col-xs-4 col-sm-4 col-md-4 full-size-img">
                                         <div class="product-list-item">
                                             <div class="zn_badge_container">
                                                 <span class="zn_badge_new">NEW</span>

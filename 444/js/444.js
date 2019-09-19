@@ -1,12 +1,12 @@
  $('#thumbs img').click(function(){
-            $('#largeImage').attr('src',$(this).attr('src').replace('thumb','large'));
+            $('#largeImage').attr('src',$(this).attr('src').replace('thumbs','large'));
             $('#description').html($(this).attr('alt'));
         });
  
   var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      slidesPerGroup: 3,
+      slidesPerView: 2,
+      spaceBetween: 10,
+      slidesPerGroup: 2,
       loop: true,
       loopFillGroupWithBlank: true,
       pagination: {

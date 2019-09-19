@@ -559,8 +559,14 @@
   font-weight: 300;
   display: block;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 590px) and (max-width: 767px) {
   .type-444 #largeImage {
     margin-left: 0px;
+    min-width: 690px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .type-444 .full-size-img {
+    width: 100% !important;
   }
 }
