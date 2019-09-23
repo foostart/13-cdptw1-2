@@ -2,7 +2,8 @@
     @color:#777;
     @font-size:12px;
     #navigation{
-        width:1207px;
+        width:87%;
+        position:fixed;
         margin-left:-10px;
         background-color:#4c4c4c;
         float:left;
@@ -202,6 +203,13 @@
     ul.cols1 p a,ul.cols3 p a{
         padding:0;
     }
+    .margin-menu{
+    margin-bottom:70px;
+    }
+    .custom{
+    width:100%;
+    background-color:#169fe6;
+    }
     @media (max-width:468px) {
         .menu>li{
             float:left;
@@ -209,5 +217,29 @@
                 display:block;
             }
         }
+    }
+      @media (max-width:835px) {
+        .btn-info{
+        display: unset!important;
+        }
+             li{
+        float:unset!important;
+        }
+         #navigation {
+    width: 100%;
+  
+    margin-left:unset!important;
+    }
+    
+        #navigation ul li:first-child {
+    margin-left: unset!important;
+}
+    }
+      @media (min-width:835px) {
+        .collapse{
+        display: block!important;
+        }
+
+
     }
 }

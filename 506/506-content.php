@@ -10,11 +10,12 @@
         <div class="type-506">
 
             <div class="container">
-                <div class="row">
+                <div class="row margin-menu">
                     <nav id="navigation" class="navbar navbar-default">
                         <div class="left-corner"></div>
                         <div class="right-corner"></div>
-                        <ul class="menu">
+                           <button type="button" class="btn btn-info custom" data-toggle="collapse" data-target="#demomenu" style="display:none;" >Menu</button>
+                        <ul id="demomenu" class="menu collapse">
                             <li><a href="#" id="current"><i class="halflings fa fa-home  home"></i> Home</a></li>
                             <li><a href="#"><i class="fa fa-file halflings file"></i> Features</a>
                                 <!-- Mega Menu / Start -->
@@ -86,6 +87,7 @@
                             </li>
                             <li><a href="contact.html"><i class="glyphicon glyphicon-envelope halflings envelope"></i> Contact</a></li>
                         </ul>
+                       
                     </nav>  
                              
                 </div>

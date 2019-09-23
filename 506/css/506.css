@@ -1,5 +1,6 @@
 .type-506 #navigation {
-  width: 1207px;
+  width: 87%;
+  position: fixed;
   margin-left: -10px;
   background-color: #4c4c4c;
   float: left;
@@ -214,11 +215,38 @@
 .type-506 ul.cols3 p a {
   padding: 0;
 }
+.type-506 .margin-menu {
+  margin-bottom: 70px;
+}
+.type-506 .custom {
+  width: 100%;
+  background-color: #169fe6;
+}
 @media (max-width: 468px) {
   .type-506 .menu>li {
     float: left;
   }
   .type-506 .menu>li a {
     display: block;
+  }
+}
+@media (max-width: 835px) {
+  .type-506 .btn-info {
+    display: unset !important;
+  }
+  .type-506 li {
+    float: unset !important;
+  }
+  .type-506 #navigation {
+    width: 100%;
+    margin-left: unset !important;
+  }
+  .type-506 #navigation ul li:first-child {
+    margin-left: unset !important;
+  }
+}
+@media (min-width: 835px) {
+  .type-506 .collapse {
+    display: block !important;
   }
 }
