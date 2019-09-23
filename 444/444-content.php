@@ -273,16 +273,11 @@
                                 <h3 class="widgettitle title">
                                     FILTER BY PRICE
                                 </h3>
-                                <form action="#" method="get">
-                                    <div class="price-range">
-                                        <div class="price-range-slider"></div>
-                                        <button type="submit" class="button">Filter</button>
-                                        <div class="pr-result">
-                                            <span>Price: </span>
-                                            <input type="text" class="price-result">
-                                        </div>
-                                    </div>
-                                </form>
+                          
+                                    <div><input type="range"  value="0,100" multiple class="slider-range">
+                                 
+                
+
                             </div>
 
                             <div id="kl-store_product_categories-2">

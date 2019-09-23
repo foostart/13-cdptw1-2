@@ -27,13 +27,20 @@ $less->compileFile('less/444.less', 'css/444.css');
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="css/swiper.min.css">
         <link href="<?php echo $url_path ?>/css/444.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/multirange.css" rel="stylesheet" type="text/css" >
+       
+
     </head>
 
     <body>
         <?php include $dir_block.'/444-content.php';?>
     </body>
+
      <script type="text/javascript" src = "js/jquery.min.js"></script>
     <script type="text/javascript" src = "js/bootstrap.min.js"></script>
     <script src="js/swiper.min.js"></script>
     <script src="js/444.js"></script>
+     <script ype="text/javascript" src="js/multirange.js"></script>
+    
+  
 </html>

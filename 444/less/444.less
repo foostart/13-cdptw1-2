@@ -6,15 +6,34 @@
 /*******************************************Header*****************************************************/
 
 .type-444{
+  .slider-range{
+    width: 80%;
+  }
+  .ghost{
+  width: 100%;
+  background:#cd2122!important;
+  --track-background: linear-gradient(to right, transparent var(--low), var(--range-color) 0, var(--range-color) var(--high), transparent 0 ) no-repeat 0 45% / 100% 40%;
+    --range-color: #cd2122!important;
+  }
   a:hover{
     text-decoration:none!important;
     opacity:0.5;
-    color:blue;
+    color:#cd2122!important;
     }
-    .product-list-item:hover{
+    .detail h3:hover{
     text-decoration:none!important;
     opacity:0.7;
-    
+     color:#cd2122!important;
+    }
+    .detail p:hover{
+    text-decoration:none!important;
+    opacity:0.7;
+     color:#cd2122!important;
+    }
+    .detail span:hover{
+    text-decoration:none!important;
+    opacity:0.7;
+     color:#cd2122!important;
     }
     button:hover{
     opacity:0.5;
@@ -66,8 +85,9 @@
        
    }
     .san-pham-phu{
-        padding: 10px 0 0 10px;
-        margin: 0 10px;
+           padding: 0 0 0 0;
+             margin: 0px 0px;
+
 
         img {
           float: left;
