@@ -16,7 +16,7 @@
                         <div class="right-corner"></div>
                            <button type="button" class="btn btn-info custom" data-toggle="collapse" data-target="#demomenu" style="display:none;" >Menu</button>
                         <ul id="demomenu" class="menu collapse">
-                            <li><a href="#" id="current"><i class="halflings fa fa-home  home"></i> Home</a></li>
+                            <li><a href="#" ><i class="halflings fa fa-home  home"></i> Home</a></li>
                             <li><a href="#"><i class="fa fa-file halflings file"></i> Features</a>
                                 <!-- Mega Menu / Start -->
                                 <ul class="cols3">

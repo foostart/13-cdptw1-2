@@ -57,14 +57,14 @@ $url_path = str_replace('\\', '/', $url_path);
     </div> 
     <div class="container">
         <div class="row line-header-tottom1">
-            <div class="col-xs-12 hidden-xs  col-sm-12 col-md-2">
+            <div class="col-xs-12 hidden-xs  col-sm-12 col-md-2 col-lg-2">
                 <div class="logo">
                     <a href="">
                         <img alt="logo" src="./images/logo.png">
                     </a>
                 </div>
             </div>
-            <div class="col-md-8 col-sm-10">
+            <div class="col-md-8 col-sm-10 col-lg-8">
                 <div class="navbar navbar-default" id="menu" role="navigation">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header hidden-sm">
@@ -164,7 +164,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div><!-- /.navbar-collapse -->
                 </div>
             </div>
-            <div class="col-md-2 col-sm-2">
+            <div class="col-md-2 col-sm-2 col-lg-2">
                 <div class="cart-widget">
                     <a class="cart-contents" href="" title="View your shopping cart">
                         <i class="fa fa-shopping-cart card"></i>

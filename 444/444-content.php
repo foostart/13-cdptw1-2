@@ -179,7 +179,7 @@
                                             </div>
                                             <a href="#">
                                                 <span class="image">
-                                                    <img src="images/san-pham-A-7.jpg" alt="" class="prodimage-img">
+                                                    <img src="images/san-pham-A-7.jpg" alt="" class="img-responsive margin-img ">
                                                 </span>
                                                 <div class="detail">
                                                     <h3 class="detail-title">Black Kaviar Longline Shirt</h3>
@@ -205,7 +205,7 @@
                                             </div>
                                             <a href="#">
                                                 <span class="image">
-                                                    <img src="images/san-pham-A-9.jpg" alt="" class="prodimage-img">
+                                                    <img src="images/san-pham-A-9.jpg" alt="" class="img-responsive margin-img">
                                                 </span>
                                                 <div class="detail">
                                                     <h3 class="detail-title">Black Kaviar Longline Shirt</h3>
@@ -231,7 +231,7 @@
                                             </div>
                                             <a href="#">
                                                 <span class="image">
-                                                    <img src="images/san-pham-A-10.jpg" alt="" class="prodimage-img">
+                                                    <img src="images/san-pham-A-10.jpg" alt="" class="img-responsive margin-img">
                                                 </span>
                                                 <div class="detail">
                                                     <h3 class="detail-title">Black Kaviar Longline Shirt</h3>
@@ -273,10 +273,32 @@
                                 <h3 class="widgettitle title">
                                     FILTER BY PRICE
                                 </h3>
-                          
-                                    <div><input type="range"  value="0,100" multiple class="slider-range">
+                          <div class="sidebar-filter mt-50">
+                    <div class="common-filter">
+                    
+                        <div class="price-range-area">
+                            <div id="price-range"></div>
+                            <div class="value-wrapper d-flex">
+                                <div class="dolla">Price:
+                             
+                                            <span id="lower-value" class="currencySymbol"></span> £
+                               
+                                         <span>to</span>
+                                      
+                                            <span id="upper-value" class="currencySymbol"></span> £
                                  
+                                    
+                                   
+                                    
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
+            
 
                             </div>
 
@@ -324,102 +346,11 @@
                                                 </a>
                                                 <span class="count">(2)</span>
                                             </li>
-                                            <li class="cat-item">
-                                                <a href="#">
-                                                    Hoodies
-                                                </a>
-                                                <span class="count">(6)</span>
-                                            </li>
-                                            <li class="cat-item">
-                                                <a href="#">
-                                                    Shirts
-                                                </a>
-                                                <span class="count">(4)</span>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="cat-item">
-                                        <a href="#">
-                                            HOME GEAR
-                                        </a>
-                                        <span class="count">(10)</span>
-                                        <ul class="children">
-                                            <li class="cat-item">
-                                                <a href="#">
-                                                    Bathroom
-                                                </a>
-                                                <span class="count">(2)</span>
-                                            </li>
-                                            <li class="cat-item">
-                                                <a href="#">
-                                                    Bedding Sets
-                                                </a>
-                                                <span class="count">(4)</span>
-                                            </li>
-                                            <li class="cat-item">
-                                                <a href="#">
-                                                    Decorations
-                                                </a>
-                                                <span class="count">(4)</span>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="cat-item">
-                                        <a href="#">
-                                            KIDS WEAR
-                                        </a>
-                                        <span class="count">(6)</span>
-                                        <ul class="children">
-                                            <li class="cat-item">
-                                                <a href="#">
-                                                    Kids Accessories
-                                                </a>
-                                                <span class="count">(0)</span>
-                                            </li>
-                                            <li class="cat-item">
-                                                <a href="#">
-                                                    Kids Clothing
-                                                </a>
-                                                <span class="count">(4)</span>
-                                            </li>
-                                            <li class="cat-item">
-                                                <a href="#">
-                                                    Kids Shoes
-                                                </a>
-                                                <span class="count">(2)</span>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="cat-item">
-                                        <a href="#">
-                                            SHOES
-                                        </a>
-                                        <span class="count">(9)</span>
-                                        <ul class="children">
-                                            <li class="cat-item">
-                                                <a href="#">
-                                                    Ankle Boots
-                                                </a>
-                                                <span class="count">(4)</span>
-                                            </li>
-                                            <li class="cat-item">
-                                                <a href="#">
-                                                    High Heels
-                                                </a>
-                                                <span class="count">(3)</span>
-                                            </li>
-                                            <li class="cat-item">
-                                                <a href="#">
-                                                    Trainers
-                                                </a>
-                                                <span class="count">(2)</span>
-                                            </li>
                                         </ul>
                                     </li>
                                 </ul>
+                            
+                           
                             </div>
 
                             <div id="kl-store_top_rated_product-2">
