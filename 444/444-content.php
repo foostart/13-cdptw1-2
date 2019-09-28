@@ -172,6 +172,31 @@
                     <div class="related">
                                 <h2>RELATED PRODUCTS</h2>
                                 <div class="row">
+                                <div class="col-xs-4 col-sm-4 col-md-4 full-size-img">
+                                        <div class="product-list-item">
+                                            <div class="zn_badge_container">
+                                                <span class="zn_badge_new">NEW</span>
+                                            </div>
+                                            <a href="#">
+                                                <span class="image">
+                                                    <img src="images/san-pham-A-7.jpg" alt="" class="img-responsive margin-img ">
+                                                </span>
+                                                <div class="detail">
+                                                    <h3 class="detail-title">Black Kaviar Longline Shirt</h3>
+                                                    <p class="detail-desc">
+                                                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.                               
+                                                    </p>
+                                                    <span class="price">
+                                                        <span class="amount">£20.00</span>
+                                                    </span>
+                                                </div>
+                                            </a>
+                                            <div class="actions">
+                                                <a href="#" class="action-addtocart">Add to cart</a>
+                                                <a href="#" class="action-moreinfo">MORE INFO</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="col-xs-4 col-sm-4 col-md-4 full-size-img">
                                         <div class="product-list-item">
                                             <div class="zn_badge_container">

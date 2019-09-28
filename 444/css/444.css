@@ -4,6 +4,9 @@
 .type-444 div:focus {
   outline: none;
 }
+.type-444 .full-size-img {
+  padding-bottom: 30px;
+}
 .type-444 .sidebar-filter .common-filter {
   border-bottom: 1px solid #eee;
   padding-bottom: 25px;
